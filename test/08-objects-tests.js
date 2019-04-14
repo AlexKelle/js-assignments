@@ -4,7 +4,7 @@ var assert = require('assert');
 var tasks = require('../task/08-objects-tasks');
 it.optional = require('../extensions/it-optional');
 
-describe.only('08-objects-tasks', function() {
+describe('08-objects-tasks', function() {
 
     it.optional('Rectangle constructor should return the rectangle object', function () {
         var rect = new tasks.Rectangle(10,20);
